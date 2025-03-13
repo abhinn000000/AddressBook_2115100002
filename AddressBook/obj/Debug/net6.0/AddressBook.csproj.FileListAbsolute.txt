@@ -161,3 +161,9 @@ C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002\AddressBook\obj\Debug\ne
 C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002\AddressBook\obj\Debug\net6.0\AddressBook.pdb
 C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002\AddressBook\obj\Debug\net6.0\AddressBook.genruntimeconfig.cache
 C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002\AddressBook\obj\Debug\net6.0\ref\AddressBook.dll
+C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002\AddressBook\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002\AddressBook\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002\AddressBook\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002\AddressBook\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002\AddressBook\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002\AddressBook\obj\Debug\net6.0\AddressBook.MvcApplicationPartsAssemblyInfo.cs

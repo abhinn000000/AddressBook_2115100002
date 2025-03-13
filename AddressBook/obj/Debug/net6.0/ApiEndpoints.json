@@ -18,8 +18,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "requestModel",
-        "Type": "ModelLayer.Models.RequestModel",
+        "Name": "addressBookModel",
+        "Type": "ModelLayer.Models.AddressBookModel",
         "IsRequired": true
       }
     ],
@@ -55,8 +55,8 @@
         "IsRequired": true
       },
       {
-        "Name": "requestModel",
-        "Type": "ModelLayer.Models.RequestModel",
+        "Name": "addressBookModel",
+        "Type": "ModelLayer.Models.AddressBookModel",
         "IsRequired": true
       }
     ],
