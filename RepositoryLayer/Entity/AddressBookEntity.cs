@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RepositoryLayer.Entity
 {
@@ -15,22 +10,21 @@ namespace RepositoryLayer.Entity
         public int Id { get; set; }
 
         [Required, MaxLength(100)]
-        public string? Name { get; set; }
+        public string Name { get; set; }
 
         [Required, Phone, MaxLength(15)]
-        public string? PhoneNumber { get; set; }
+        public string PhoneNumber { get; set; }
 
         [EmailAddress, MaxLength(255)]
-        public string? Email { get; set; }
+        public string Email { get; set; }
 
-        public string? Address { get; set; }
-
+        public string Address { get; set; }
 
         [Required]
-        [ForeignKey("User")] //defines UserId as a foreign key to the User table
+        [ForeignKey("User")] 
         public int UserId { get; set; }
 
-        //navigation property to establish the relationship
-        public virtual UserEntity User { get; set; }
+        // Navigation property
+        public UserEntity User { get; set; }
     }
 }
