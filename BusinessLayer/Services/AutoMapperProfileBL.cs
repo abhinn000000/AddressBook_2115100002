@@ -13,7 +13,8 @@ namespace BusinessLayer.Services
     {
         public AutoMapperProfileBL()
         {
-            CreateMap<AddressBookEntity, AddressBookModel>().ReverseMap();
+            CreateMap<RequestModel, AddressBookEntity>();
+            CreateMap<AddressBookEntity, ResponseModel<string>>();
         }
     }
 }

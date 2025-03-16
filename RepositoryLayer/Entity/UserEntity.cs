@@ -1,7 +1,5 @@
-﻿
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-
 
 namespace RepositoryLayer.Entity
 {
@@ -20,7 +18,6 @@ namespace RepositoryLayer.Entity
         [Required]
         public string? PasswordHash { get; set; }
 
-        public virtual ICollection<AddressBookEntity> AddressBookEntries { get; set; } = new List<AddressBookEntity>();
-
+        public  ICollection<AddressBookEntity> AddressBookEntries { get; set; } 
     }
 }

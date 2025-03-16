@@ -167,3 +167,4 @@ C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002\AddressBook\bin\Debug\ne
 C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002\AddressBook\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002\AddressBook\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002\AddressBook\obj\Debug\net6.0\AddressBook.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002\AddressBook\bin\Debug\net6.0\Newtonsoft.Json.dll
