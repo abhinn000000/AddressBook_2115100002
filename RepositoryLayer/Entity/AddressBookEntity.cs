@@ -21,10 +21,10 @@ namespace RepositoryLayer.Entity
         public string Address { get; set; }
 
         [Required]
-        [ForeignKey("User")] 
+        [ForeignKey("User")]
         public int UserId { get; set; }
 
         // Navigation property
-        public UserEntity User { get; set; }
+        public virtual UserEntity User { get; set; }
     }
 }

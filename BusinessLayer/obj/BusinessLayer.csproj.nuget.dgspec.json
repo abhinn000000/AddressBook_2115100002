@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002\\BusinessLayer\\BusinessLayer.csproj": {}
+    "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\BusinessLayer\\BusinessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002\\BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002\\RepositoryLayer\\RepositoryLayer.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002\\RepositoryLayer\\RepositoryLayer.csproj"
+              "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\Middleware\\Middleware.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\Middleware\\Middleware.csproj"
+              },
+              "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\RepositoryLayer\\RepositoryLayer.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\RepositoryLayer\\RepositoryLayer.csproj"
               }
             }
           }
@@ -62,6 +65,14 @@
               "target": "Package",
               "version": "[11.5.1, )"
             },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -87,14 +98,89 @@
         }
       }
     },
-    "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002\\ModelLayer\\ModelLayer.csproj": {
+    "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\Middleware\\Middleware.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002\\ModelLayer\\ModelLayer.csproj",
-        "projectName": "ModelLayer",
-        "projectPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002\\ModelLayer\\ModelLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\Middleware\\Middleware.csproj",
+        "projectName": "Middleware",
+        "projectPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\Middleware\\Middleware.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002\\ModelLayer\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\Middleware\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\ModelLayer\\ModelLayer.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\ModelLayer\\ModelLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.36, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\ModelLayer\\ModelLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\ModelLayer\\ModelLayer.csproj",
+        "projectName": "ModelLayer",
+        "projectPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\ModelLayer\\ModelLayer.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\ModelLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -132,6 +218,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -152,14 +248,14 @@
         }
       }
     },
-    "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002\\RepositoryLayer\\RepositoryLayer.csproj": {
+    "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\RepositoryLayer\\RepositoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\RepositoryLayer\\RepositoryLayer.csproj",
         "projectName": "RepositoryLayer",
-        "projectPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\RepositoryLayer\\RepositoryLayer.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002\\RepositoryLayer\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\RepositoryLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -180,8 +276,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002\\ModelLayer\\ModelLayer.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002\\ModelLayer\\ModelLayer.csproj"
+              "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\ModelLayer\\ModelLayer.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\AddressBook_2115100002_copy\\ModelLayer\\ModelLayer.csproj"
               }
             }
           }
@@ -225,6 +321,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.36, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.4.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
