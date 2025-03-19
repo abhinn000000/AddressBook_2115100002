@@ -263,3 +263,7 @@ C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002_copy\AddressBook\obj\Deb
 C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002_copy\AddressBook\obj\Debug\net6.0\AddressBook.pdb
 C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002_copy\AddressBook\obj\Debug\net6.0\AddressBook.genruntimeconfig.cache
 C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002_copy\AddressBook\obj\Debug\net6.0\ref\AddressBook.dll
+C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002_copy\AddressBook\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002_copy\AddressBook\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002_copy\AddressBook\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Lenovo\OneDrive\Desktop\AddressBook_2115100002_copy\AddressBook\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
